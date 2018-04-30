@@ -1,0 +1,80 @@
+/* 
+   Revisions Bookstore and Cafe style sheet 
+   Filename: TB_pg108.css
+
+   Author: Jacqueleen Heo
+   Date: 28 April
+   HTML5 and CSS3 Illustrated Unit D, Visual Workshop (TB pg108)
+ */
+ 
+
+/* reset styles */
+article, body, div, header, footer, h1, h2, p {
+    margin: 0;
+    border: 0;
+}
+
+
+/* body and page container */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: floralwhite;
+}
+
+ .container {
+    max-width: 640px;
+    border: 2px solid navy;
+    margin: 0 auto;
+    background-color: burlywood;
+ }
+ 
+
+ /* headings */
+ header {
+    padding: 0.3em;
+    background-color: lightblue;
+ }
+ 
+ h1 {
+    color: navy;
+    text-align: center;
+ }
+
+ h2 {
+     padding-bottom: 0.1em;
+ }
+
+
+ /* main content */
+ article {
+    width: 63%;
+    padding: 0.8em 1em 1em;
+    background-color: white;
+    float: right;
+ }
+
+article p {
+    padding: 0.4em 1em;
+}
+
+
+ /* sidebar */
+ aside {
+    width: 37%;
+    padding: 0.5em;
+    background-color: burlywood;
+ }
+ 
+aside p {
+    padding: 0.5em;
+}
+
+ /* footer section */
+ footer {
+    padding: 0.4em;
+    color: navy;
+    background-color: lightblue;
+    text-align: right;
+    clear: right;
+ }
